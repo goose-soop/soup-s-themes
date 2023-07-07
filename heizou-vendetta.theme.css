@@ -91,9 +91,18 @@
         ],
         "KEYBOARD": [
             "#5f0c22"
-Expand All
-	@@ -106,19 +106,19 @@
-        ]
+  ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#f2d8de"
+        ],
+        "CHANNEL_ICON": [
+            "#d1b6bd"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#d1b6bd"
+        ],
+        "CHAT_BACKGROUND": [
+            "#572f39"
     },
     "rawColors": {
         "PRIMARY": "#430817",
