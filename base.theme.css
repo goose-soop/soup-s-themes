@@ -22,7 +22,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image:;
+    --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -458,18 +458,6 @@ body,button,input,select,textarea,::placeholder{
     font-weight:600;
     white-space:nowrap;
     order:1
-}
-.typeWindows__5fa63>.wordmark__0d178:before{
-    content:"";
-    color:rgba(255,255,255,.7);
-    font-size:14px;
-    text-shadow:0 0 3px #000
-}
-.typeWindows__5fa63>.wordmark__0d178:after{
-    content:"";
-    color:rgba(255,255,255,.3);
-    font-family:var(--code-font);
-    font-size:10px
 }
 .typeWindows__5fa63>.wordmark__0d178>svg{
     filter:drop-shadow(0 0 5px var(--main-color));
@@ -1056,19 +1044,6 @@ button.button__4f306.disabled_dc5630>.contents_fb6220>svg{
     font-size:11px;
     font-weight:700;
     transition:all .5s ease-in-out
-}
-.theme-dark .container_ca50b9:before{
-    content:"";
-    right:50%;
-    text-align:right;
-    transform:translateX(50%)
-}
-.theme-dark .container_ca50b9:after{
-    content:"v6.3.0";
-    left:50%;
-    text-align:left;
-    opacity:0;
-    transform:translateX(50%) rotateX(90deg)
 }
 .theme-dark .container_ca50b9:hover:before{
     margin-right:1px;
