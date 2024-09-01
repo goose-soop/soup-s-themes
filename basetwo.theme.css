@@ -3,6 +3,7 @@
     --highlight: (var(--highlight));
     --background: 0, 9, 0;
     --background: (var(--background));
+    --text: rgb(255, 255, 255);
     --text: (var(--text));
     --close-button: 212, 18, 39;
     --close-button: (var(--close-button));
