@@ -259,7 +259,7 @@ body {
 .scroller_c100ff,
 .pageWrapper_a3a4ce,
 .container_a6d69a {
-    background: rgba(0, 0, 0, 0) !important
+    background: var(--main-color) !important
 }
 
 #app-mount .wrapper_c51b4e rect[fill="#593695"],
