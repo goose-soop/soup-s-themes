@@ -215,11 +215,6 @@ body {
     backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness))
 }
 
-html,
-body {
-    font-family: "Share Tech Mono", monospace
-}
-
 .appMount_ea7e65,
 .app_a01fb1,
 .bg_d4b6c5,
