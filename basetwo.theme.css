@@ -1445,10 +1445,6 @@ button.button_f67531.enabled_f67531:hover svg {
 	background-color: rgba(var(--accentcolor_v), .8);
 	border: none;
 }
-#app-mount .reaction_ec6b19.reactionMe_ec6b19:hover {
-	background-color: rgb(var(--accentcolor_v));
-	border: none;
-}
 #app-mount .reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
 	color: #FFF;
 	text-shadow: 1px 1px var(--textshadow_v);
