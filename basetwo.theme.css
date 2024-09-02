@@ -129,7 +129,7 @@
 
     --home-background: transparent;
 
-    : rgba(var(--transparencycolor_v), .1);
+    --background-accent: rgba(var(--transparencycolor_v), .1);
     --background-primary: rgba(var(--transparencycolor_v), .2);
     --background-secondary: rgba(var(--transparencycolor_v), .3);
     --background-secondary-alt: rgba(var(--transparencycolor_v), .35);
@@ -1298,6 +1298,18 @@ button.button_f67531.enabled_f67531:hover svg {
 .wrapper_b75bb9,
 /* messageloading */
 .message_ddb5b4,
+/* messagemention popout*/
+.message_c06487,
+/* messageinbox popout*/
+.message_ddcc45 .wrapper_f9f2ca,
+/* messagesettings preview*/
+.messageGroupCozy_ac90a2,
+/* messagepin popout*/
+.message_ddc613 .wrapper_f9f2ca {
+    /* messagesearchpage*/
+    background-color: rgba(var(--transparencycolor_v), var(--messagetransparency_v)) !important;
+    contain: unset;
+}
 
 .message_ddc613 .wrapper_f9f2ca {
     /* messagesearchpage*/
@@ -1469,21 +1481,21 @@ button.button_f67531.enabled_f67531:hover svg {
     left: calc(-1 * var(--avatar-size) - (6px * var(--usechatbubbles)));
     width: calc(var(--avatar-size) - 4px);
     margin: calc(-1 * var(--spine-width)/2) var(--reply-spacing) calc(.125rem - 4px) calc(-1 * var(--spine-width)/2);
-    border-right: 0 solid var();
-    border-left: var(--spine-width) solid var();
+    border-right: 0 solid var(--background-accent);
+    border-left: var(--spine-width) solid var(--background-accent);
 }
 
 #app-mount .repliedMessage_f9f2ca::before,
 #app-mount .repliedMessage_f9f2ca::after {
-    border-top: var(--spine-width) solid var();
-    border-bottom: 0 solid var();
+    border-top: var(--spine-width) solid var(--background-accent);
+    border-bottom: 0 solid var(--background-accent);
     border-top-left-radius: 6px;
 }
 
 #app-mount .spine_c15230::before,
 #app-mount .spine_c15230::after {
-    border-top: 0 solid var();
-    border-bottom: var(--spine-width) solid var();
+    border-top: 0 solid var(--background-accent);
+    border-bottom: var(--spine-width) solid var(--background-accent);
     border-bottom-left-radius: 6px;
 }
 
@@ -1530,10 +1542,10 @@ button.button_f67531.enabled_f67531:hover svg {
     left: calc(var(--avatar-size) * (1 - var(--usechatbubbles)) - var(--avatar-size) * var(--usechatbubbles));
     width: calc(var(--avatar-size) - 10px + (4px * var(--usechatbubbles)));
     margin: calc(-1 * var(--spine-width)/2) var(--reply-spacing) calc(.125rem - 4px) calc(-1 * var(--spine-width)/2);
-    border-top: 0 solid var();
-    border-right: 0 solid var();
-    border-bottom: var(--spine-width) solid var();
-    border-left: var(--spine-width) solid var();
+    border-top: 0 solid var(--background-accent);
+    border-right: 0 solid var(--background-accent);
+    border-bottom: var(--spine-width) solid var(--background-accent);
+    border-left: var(--spine-width) solid var(--background-accent);
     border-bottom-left-radius: 8px;
 }
 
@@ -2360,6 +2372,13 @@ button.button_f67531.enabled_f67531:hover svg {
 #app-mount .wrapper_cbf230 {
     z-index: 1002;
 }
+
+#app-mount .root_cbf230 {
+    /* popoutinner*/
+    background-color: transparent;
+    border: none;
+}
+
 .root_cbf230::before,
 .root_cbf230::after {
     content: "";
@@ -2912,7 +2931,7 @@ button.button_f67531.enabled_f67531:hover svg {
 
 #app-mount .installationPath_d037ef {
     /* librarygame row path*/
-    box-shadow: 0 1px 0 0 var();
+    box-shadow: 0 1px 0 0 var(--background-accent);
 }
 
 #app-mount .rowTitle_d037ef {
