@@ -1625,11 +1625,6 @@ button.button_f67531.enabled_f67531:hover svg {
 }
 
 .container_d29eee .banner_d29eee,   	/* textarea  say hi, etc.   	*/
-.attachedBars_d0696b {    	/* textarea  reply    */
-	background: rgba(var(--transparencycolor_v), .3);
-	border: none;
-	border-bottom: 1px solid var(--background-modifier-accent);
-}
 .container_d29eee + .form_a7d72e {
 	padding-top: 0;
 }
