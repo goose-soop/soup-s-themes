@@ -1086,7 +1086,6 @@ button.button_f67531.enabled_f67531:hover svg {
 	background-color: rgba(var(--transparencycolor_v), .2);
 	box-shadow: none;
 }
-.message_d5deea,									/* message				container							*/
 .messagesWrapper_e2e187 .wrapper_f9f2ca,						/* message				upload placeholder						*/
 .card_d4f6c7 .wrapper_f9f2ca,								/* message				home								*/
 .wrapper_b75bb9,									/* message				loading 							*/
