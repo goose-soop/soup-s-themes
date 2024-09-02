@@ -1140,14 +1140,6 @@ button.button_f67531.enabled_f67531:hover svg {
 .backgroundFlash_d5deea .cozyMessage_d5deea::before {
 	left: calc(-80px * var(--usechatbubbles));
 }
-.message_d5deea.ephemeral_d5deea,   	/* message  localbot   	*/
-.message_d5deea.replying_d5deea,   	/* message  replying   	*/
-.message_d5deea.highlighted_fc800f {   	/* message  highlighted   	*/
-	background-image: linear-gradient(rgba(var(--accentcolor_v), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--accentcolor_v), calc(0.2 * (1 - var(--usechatbubbles)))));
-}
-.message_d5deea.mentioned_d5deea {   	/* message  mentioned   	*/
-	background-image: linear-gradient(rgba(var(--mentioncolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--accentcolor_v), calc(0.2 * (1 - var(--usechatbubbles)))));
-}
 .message_d5deea.automodMessage_d5deea {   	/* message  automodMessage   	*/
 	background-image: linear-gradient(rgba(var(--dangercolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--dangercolor), calc(0.2 * (1 - var(--usechatbubbles)))));
 }
