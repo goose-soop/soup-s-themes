@@ -4306,7 +4306,7 @@ textarea::-webkit-scrollbar {
 
 .message_d5deea .timestamp_f9f2ca {
     text-align: center;
-    color: rgba(255, 255, 255, .5)
+    color: var(--text-normal)
 }
 
 .message_d5deea .contents_f9f2ca,
