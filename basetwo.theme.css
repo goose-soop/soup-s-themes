@@ -1298,18 +1298,6 @@ button.button_f67531.enabled_f67531:hover svg {
 .wrapper_b75bb9,
 /* messageloading */
 .message_ddb5b4,
-/* messagemention popout*/
-.message_c06487,
-/* messageinbox popout*/
-.message_ddcc45 .wrapper_f9f2ca,
-/* messagesettings preview*/
-.messageGroupCozy_ac90a2,
-/* messagepin popout*/
-.message_ddc613 .wrapper_f9f2ca {
-    /* messagesearchpage*/
-    background-color: rgba(var(--transparencycolor_v), var(--messagetransparency_v)) !important;
-    contain: unset;
-}
 
 .message_ddc613 .wrapper_f9f2ca {
     /* messagesearchpage*/
