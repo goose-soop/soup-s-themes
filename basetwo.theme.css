@@ -3,6 +3,7 @@
     --hover-color: #1e63b3;
     --success-color: #43b581;
     --danger-color: #982929;
+    --timestamp-color: rgba(255, 255, 255, 0.3);
     --channel-unread: var(--main-color);
     --channel-color: rgba(255, 255, 255, 0.3);
     --muted-color: rgba(255, 255, 255, 0.1);
@@ -3254,7 +3255,6 @@ textarea::-webkit-scrollbar {
 
 .container_fc4f04 .nicknames_d6c26f {
     color: rgba(255, 255, 255, .5)
-    style: bold
 }
 
 .container_fc4f04 .divider_fc4f04 {
@@ -4307,7 +4307,7 @@ textarea::-webkit-scrollbar {
 
 .message_d5deea .timestamp_f9f2ca {
     text-align: center;
-    color: var(--main-color)
+    color: var(--timestamp-color)
 }
 
 .message_d5deea .contents_f9f2ca,
