@@ -1189,6 +1189,9 @@ button.button_f67531.enabled_f67531:hover svg {
 	top: 24px;
 }
 
+#app-mount .replyBadge_f9f2ca {    /* message  reply badge   	*/
+	background-color: rgba(var(--transparencycolor_v), .5);
+}
 #app-mount .spine_c15230 {
 	width: 0px;
 	top: 20px;
@@ -1439,6 +1442,14 @@ button.button_f67531.enabled_f67531:hover svg {
 }
 #app-mount .reaction_ec6b19:hover {
 	background-color: rgba(var(--transparencycolor_v), .4);
+	border: none;
+}
+#app-mount .reaction_ec6b19.reactionMe_ec6b19 {
+	background-color: rgba(var(--accentcolor_v), .8);
+	border: none;
+}
+#app-mount .reaction_ec6b19.reactionMe_ec6b19:hover {
+	background-color: rgb(var(--accentcolor_v));
 	border: none;
 }
 #app-mount .reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
