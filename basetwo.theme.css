@@ -1304,7 +1304,6 @@ button.button_f67531.enabled_f67531:hover svg {
 	display: none;
 }
 
-.cozy_f9f2ca .header_f9f2ca::after,   	/* message  container header   */
 .cozy_b75bb9 .header_b75bb9::after {   	/* message  loading header   	*/
 	content: "";
 	position: absolute;
@@ -1487,70 +1486,6 @@ button.button_f67531.enabled_f67531:hover svg {
 .button_ef319f:hover,
 .button_ef319f.selected_ef319f {
 	background-color: rgb(var(--accentcolor_v));
-}
-
-.bumpBox_ca33de {    	/* messageelement 	publish box   	*/
-	background-color: rgba(var(--transparencycolor_v), .4);
-}
-
-.markup_f8f345 code {    	/* messageelement 	code    */
-	background-color: transparent;
-	border-color: transparent;
-}
-.markup_f8f345 pre {    	/* messageelement 	pre    */
-	background-color: rgba(var(--transparencycolor_v), .4);
-	border-color: rgba(var(--transparencycolor_v), .1);
-}
-.markup_f8f345 .inline,    	/* messageelement 	inline    */
-.after_inlineCode_cdb578,
-.before_inlineCode_cdb578,
-.inlineCode_cdb578 {
-	background-color: rgba(var(--transparencycolor_v), .4);
-}
-
-.textContainer_d8e2d0 {    	/* messageelement  	plain file text   	*/
-	background-color: rgba(var(--transparencycolor_v), .4);
-	border-color: rgba(var(--transparencycolor_v), .1);
-}
-.footer_d8e2d0 {    	/* messageelement  	plain file footer   */
-	background-color: rgba(var(--transparencycolor_v), .4);
-	border-color: rgba(var(--transparencycolor_v), .1);
-}
-.languageSelector_d8e2d0 {    /* messageelement  	plain file popout   */
-	background-color: transparent;
-	border: 1px solid rgba(var(--transparencycolor_v), .3);
-	border-radius: 5px;
-	box-shadow: 0px 1px 5px 0px rgba(var(--transparencycolor_v), .3);
-	overflow: hidden;
-}
-.languageSelector_d8e2d0::before,
-.languageSelector_d8e2d0::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	width: unset;
-	height: unset;
-	border-radius: 5px;
-	pointer-events: none;
-	z-index: -1;
-}
-.languageSelector_d8e2d0::before {
-	background: var(--popout_v) var(--popoutposition_v)/var(--popoutsize_v);
-	background-attachment: fixed;
-}
-.languageSelector_d8e2d0::after {
-	background-color: rgba(var(--transparencycolor_v), calc(var(--transparencyalpha_v) + 0.25));
-	backdrop-filter: blur(var(--popoutblur_v));
-}
-
-#app-mount .spoilerContent_a3d0f7 {   	/* messageelement 	spoiler    */
-	background-color: rgba(var(--transparencycolor_v), .2);
-}
-#app-mount .spoilerContent_a3d0f7.hidden_a3d0f7 {  	/* messageelement 	hiddenspoiler   	*/
-	background-color: rgba(var(--transparencycolor_v), .6);
 }
 
 .icon_e62b38[style*="/assets/7ed159b6acb6da5d9593.svg"] {  /* systemmessage 	pinicon    */
