@@ -6734,6 +6734,10 @@ html .colorDefault_XdNdIp .bg_8df5St::after {
 	border-top-color: rgba(var(--transparencycolor_v), .2);
 	color: var(--header-primary);
 }
+#app-mount #dv-main .dv-date {
+	color: var(--header-secondary);
+	opacity: 1;
+}
 
 /* ---- 18.3. MEMBERCOUNT  	---- */
 
