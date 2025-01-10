@@ -542,14 +542,14 @@ textarea,
 }
 
 .typeWindows_a934d8>.wordmark_a934d8:before {
-    content: "ClearVision";
+    content: "";
     color: hsla(0, 0%, 100%, .7);
     font-size: 14px;
     text-shadow: 0 0 3px #000
 }
 
 .typeWindows_a934d8>.wordmark_a934d8:after {
-    content: "v6.9.0";
+    content: "";
     color: hsla(0, 0%, 100%, .3);
     font-family: var(--code-font);
     font-size: 10px
