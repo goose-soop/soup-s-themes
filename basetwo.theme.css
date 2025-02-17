@@ -556,7 +556,7 @@ textarea,
 }
 
 .typeWindows__421ed>.wordmark__421ed:after {
-    content: "(ptb))";
+    content: "(ptb)";
     color: hsla(0, 0%, 100%, .3);
     font-family: var(--code-font);
     font-size: 10px
