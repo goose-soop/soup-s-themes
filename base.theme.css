@@ -6430,7 +6430,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .shopAll__08415 {
-    background: var(--main-color)
+    background: rgba(0, 0, 0, 0.1)
 }
 
 .shopAll__08415:hover {
@@ -6438,7 +6438,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .shop__6db1d {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .shopScroll__6db1d {
@@ -6446,11 +6446,11 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .pageWrapper__6db1d {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .headerBar__80679 {
-    background-color: rgba(0, 0, 0, 0) !important
+    background-color: rgba(0, 0, 0, 0.1) !important
 }
 
 .skeleton__72fa0 {
@@ -6459,7 +6459,7 @@ html:not(.visual-refresh) .input__991a0 {
 
 .bannerBody__72fa0,
 .cardBody__72fa0 {
-    background-color: var(--card-color)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .cardAvatar__72fa0,
@@ -6471,7 +6471,7 @@ html:not(.visual-refresh) .input__991a0 {
 
 .shopCard_b37971,
 .shopCard_c3d04b {
-    background-color: var(--card-color);
+    background-color: rgba(0, 0, 0, 0.1);
     border-color: var(--main-color)
 }
 
@@ -6487,7 +6487,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .collectibleInfoContainer_c50f62 {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .chatPreview_c50f62 {
@@ -6501,17 +6501,17 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .container_adb50a {
-    background: var(--background-overlay);
+    background: rgba(0, 0, 0, 0.1);
     border: 2px solid var(--main-color)
 }
 
 .container_adb50a:hover {
-    background: var(--background-overlay);
+    background: rgba(0, 0, 0, 0.1);
     border: 2px solid var(--hover-color)
 }
 
 .selected_d804ff {
-    background: var(--main-color)
+    background:rgba(0, 0, 0, 0.1)
 }
 
 .buttonWhite_b322b1 {
@@ -7862,7 +7862,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .theme-dark .header__45690 .tabBar_ab6641 .tab_ab6641.active_f0cd33 {
-    background-color: var(--main-color)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .theme-dark .header__45690 .tabBar_ab6641 .tab_ab6641:hover:not(.active_f0cd33) {
@@ -9044,7 +9044,7 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b [aria-controls=nitro-server-boost-tab].item_b3f026:before {
-    background-image: url()
+    background-image: rgba(0, 0, 0, 0.1)
 }
 
 .sidebar__23e6b [aria-controls=subscriptions-tab].item_b3f026:before {
@@ -10043,7 +10043,7 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 [aria-selected=true].serverBoostTabItem_cbe0b4 {
-    background-color: rgba(0, 0, 0, 0) !important
+    background-color: rgba(0, 0, 0, 0.1) !important
 }
 
 .socialLinks__7df54 .link__7df54 {
@@ -10964,7 +10964,7 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b .bd-updates-tab.item_b3f026:before {
-    background-image: url()
+    background-image: rgba(0, 0, 0, 0.1)
 }
 
 .sidebar__23e6b .bd-customcss-tab.item_b3f026:before {
@@ -10972,20 +10972,20 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b .bd-plugins-tab.item_b3f026:before {
-    background-image: url()
+    background-image: rgba(0, 0, 0, 0.1)
 }
 
 .sidebar__23e6b .bd-themes-tab.item_b3f026:before {
-    background-image: url()
+    background-image: rgba(0, 0, 0, 0.1)
 }
 
 .bd-modal-root {
-    background-color: var(--background-overlay)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .bd-modal-root .bd-modal-footer,
 .bd-modal-root .bd-modal-header {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none
 }
 
@@ -10999,7 +10999,7 @@ div#magane div.stickerWindow div.stickers h3.getStarted {
 
 div#magane .stickersModal .modal-content,
 div#magane .stickersModal .modal-card {
-    background: rgba(0, 0, 0, 0)
+    background: rgba(0, 0, 0, 0.1)
 }
 
 div#magane .stickersModal .inputQuery {
@@ -11194,7 +11194,7 @@ div#magane div.stickerWindow div.packs-toolbar {
 }
 
 .visual-refresh .appMount__51fd7 {
-    background: var(--background-overlay)
+    background: rgba(0, 0, 0, 0.1)
 }
 
 .visual-refresh .bg__960e4 {
@@ -11209,7 +11209,7 @@ div#magane div.stickerWindow div.packs-toolbar {
 .visual-refresh .sidebar_c48ade::after .standardSidebarView__23e6b,
 .visual-refresh .sidebarRegionScroller__23e6b,
 .visual-refresh .tabBody__133bf {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 .visual-refresh .chatContent_f75fb0 {
