@@ -550,14 +550,14 @@ textarea,
 }
 
 .typeWindows__421ed>.wordmark__421ed:before {
-    content: "";
+    content: " ";
     color: hsla(0, 0%, 100%, .7);
     font-size: 14px;
     text-shadow: 0 0 3px #000
 }
 
 .typeWindows__421ed>.wordmark__421ed:after {
-    content: "";
+    content: "v6.9.0";
     color: hsla(0, 0%, 100%, .3);
     font-family: var(--code-font);
     font-size: 10px
