@@ -232,7 +232,7 @@
 @keyframes cv-channel-select {
     from {
         right: 100%;
-        background-color: rgba(0, 0, 0, 0.5)
+        background-color: rgba(0, 0, 0, 0)
     }
 
     to {
@@ -1363,7 +1363,7 @@ html:not(.visual-refresh) .sidebar_c48ade:not(.hidden_c48ade) {
 }
 
 .activityPanel_c48ade {
-    border-color: rgba(0, 0, 0, 0.5)
+    border-color: rgba(0, 0, 0, 0)
 }
 
 .activityPanel_c48ade .actions_bf1a22 {
@@ -6430,7 +6430,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .shopAll__08415 {
-    background: rgba(0, 0, 0, 0.1)
+    background: var(--main-color)
 }
 
 .shopAll__08415:hover {
@@ -6459,7 +6459,7 @@ html:not(.visual-refresh) .input__991a0 {
 
 .bannerBody__72fa0,
 .cardBody__72fa0 {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: var(--card-color)
 }
 
 .cardAvatar__72fa0,
@@ -6471,7 +6471,7 @@ html:not(.visual-refresh) .input__991a0 {
 
 .shopCard_b37971,
 .shopCard_c3d04b {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--card-color);
     border-color: var(--main-color)
 }
 
@@ -6501,17 +6501,17 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .container_adb50a {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--background-overlay);
     border: 2px solid var(--main-color)
 }
 
 .container_adb50a:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--background-overlay);
     border: 2px solid var(--hover-color)
 }
 
 .selected_d804ff {
-    background:rgba(0, 0, 0, 0.1)
+    background: var(--main-color)
 }
 
 .buttonWhite_b322b1 {
@@ -7862,7 +7862,7 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .theme-dark .header__45690 .tabBar_ab6641 .tab_ab6641.active_f0cd33 {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: var(--main-color)
 }
 
 .theme-dark .header__45690 .tabBar_ab6641 .tab_ab6641:hover:not(.active_f0cd33) {
@@ -9004,223 +9004,223 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b [aria-controls=my-account-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=profile-customization-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls="privacy-&-safety-tab"].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=family-center-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=authorized-apps-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=sessions-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=connections-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=settings-clips-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=friend-requests-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=discord-nitro-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=nitro-server-boost-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=subscriptions-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=library-inventory-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=billing-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=appearance-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=accessibility-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls="voice-&-video-tab"].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls="text-&-images-tab"].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=notifications-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=keybinds-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=language-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=windows-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=linux-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=streamer-mode-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=advanced-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=activity-privacy-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=game-activity-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=overlay-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=changelog-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=hypesquad-online-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=overview-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=roles-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=emoji-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=stickers-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=soundboard-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=widget-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=guild_templates-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=vanity_url-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=integrations-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=moderation-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=safety-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=guild_automod-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=audit_log-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=bans-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=community-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=onboarding-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=analytics-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=partner-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=discovery-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=community_welcome-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=guild_premium-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=role_subscriptions-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=members-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=instant_invites-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b [aria-controls=permissions-tab].item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .educationUpsell__4a4f2 {
@@ -10960,11 +10960,11 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b .bd-settings-tab.item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b .bd-updates-tab.item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b .bd-customcss-tab.item_b3f026:before {
@@ -10972,15 +10972,15 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
 }
 
 .sidebar__23e6b .bd-plugins-tab.item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .sidebar__23e6b .bd-themes-tab.item_b3f026:before {
-    background-image: rgba(0, 0, 0, 0.1)
+    background-image: url()
 }
 
 .bd-modal-root {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: var(--background-overlay)
 }
 
 .bd-modal-root .bd-modal-footer,
@@ -10999,7 +10999,7 @@ div#magane div.stickerWindow div.stickers h3.getStarted {
 
 div#magane .stickersModal .modal-content,
 div#magane .stickersModal .modal-card {
-    background: rgba(0, 0, 0, 0.1)
+    background: rgba(0, 0, 0, 0)
 }
 
 div#magane .stickersModal .inputQuery {
@@ -11054,7 +11054,7 @@ div#magane div.stickerWindow div.packs-toolbar {
 }
 
 #MemberCount {
-    background: rgba(0, 0, 0, .5)
+    background: rgba(0, 0, 0, 0)
 }
 
 #MemberCount h3 {
@@ -11194,7 +11194,7 @@ div#magane div.stickerWindow div.packs-toolbar {
 }
 
 .visual-refresh .appMount__51fd7 {
-    background: rgba(0, 0, 0, 0.1)
+    background: var(--background-overlay)
 }
 
 .visual-refresh .bg__960e4 {
