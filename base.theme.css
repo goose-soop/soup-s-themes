@@ -11224,3 +11224,7 @@ div#magane div.stickerWindow div.packs-toolbar {
 .visual-refresh-chat-input .channelTextArea__74017 {
     background-color: rgba(0, 0, 0, .6)
 }
+
+.itemsContainer_ef3116 {
+    background-color: var(--backdrop-overlay)
+}
