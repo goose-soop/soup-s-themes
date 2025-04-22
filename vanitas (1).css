@@ -2,9 +2,11 @@
  * @name vanitas :3
  * @author goose_soop
  * @description a theme edited by goose_soop :3 tehe
+ * @website https://github.com/goose-soop/soup-s-themes
 */
 
 @import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/main/base.theme.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/soups-silly-css-snippets-from-others.css');
 
 :root {
   --main-color: #09658f;
