@@ -11228,3 +11228,18 @@ div#magane div.stickerWindow div.packs-toolbar {
 .itemsContainer_ef3116 {
     background-color: var(--backdrop-overlay)
 }
+
+.wrapper_ef3116,
+.guilds_c48ade, 
+.stack_dbd263,
+.scroller_ef3116,
+.isScrolledToBottom_ef3116,
+.tree_ef3116,
+.itemsContainer_ef3116,
+.listItem__650eb,
+.listItem__650eb,
+.stack_dbd263,
+.expandedFolderIconWrapper__48112,
+.folder__48112 {
+  background: url('https://imgur.com/a/HzpVYwh') !important;
+}
