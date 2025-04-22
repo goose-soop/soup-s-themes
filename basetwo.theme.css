@@ -22,6 +22,7 @@
     --font-display: var(--main-font);
     --text-normal: rgb(220, 221, 222);
     --text-muted: rgb(114, 118, 125);
+    --discord-title: content('gouse_soup');
     --channels-width: 220px;
     --members-width: 240px;
     --background-shading: 100%;
