@@ -467,5 +467,5 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 .stack_dbd263,
 .expandedFolderIconWrapper__48112,
 .folder__48112 {
-  background: url('--main-color') !important;
+  background: var('--main-color') !important;
 }
