@@ -454,3 +454,18 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 .iconActiveMini_f34534 {
   display: none !important;
 }
+
+.wrapper_ef3116,
+.guilds_c48ade, 
+.stack_dbd263,
+.scroller_ef3116,
+.isScrolledToBottom_ef3116,
+.tree_ef3116,
+.itemsContainer_ef3116,
+.listItem__650eb,
+.listItem__650eb,
+.stack_dbd263,
+.expandedFolderIconWrapper__48112,
+.folder__48112 {
+  background: var(--background-base-lowest) !important;
+}
