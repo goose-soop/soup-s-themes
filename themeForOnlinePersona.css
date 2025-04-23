@@ -1,20 +1,30 @@
 /**
- * @name vanitas :3
- * @author goose_soop
- * @description a theme edited by goose_soop :3 tehe
- * @website https://github.com/goose-soop/soup-s-themes
+ * @name Online Persona Theme
+ * @author gouse_soop
+ * @description For gouse_soup stuff. :3
 */
 
-@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/main/base.theme.css');
-@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/soups-silly-css-snippets-from-others.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/basetwo.theme.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/new-ui-revamped.css');
 
 :root {
-  --main-color: #09658f;
-  --hover-color: #06364C;
-  --success-color: #15623F;
-  --danger-color: #3E0804;
+  --main-color: #2b62ac;           /* Default is #478ce6 */
+  --hover-color: #2E3035;          /* Default is #2E3035 */
+  --success-color: #15bb39;        /* Default is #15bb39 */
+  --danger-color: #a30606;         /* Default is #a30606 */
+  --timestamp-color: #c6f7ff;      /* Default is #c6f7ff */
+  --channel-unread: #cacaca;       /* Default is #cacaca */
+  --channel-color: #a8a8a8;        /* Default is #a8a8a8 */
+  --muted-color: #616161;          /* Default is #616161. Muted channel color */
+  --text-normal: #d3d3d3;          /* Default is #d3d3d3 */
+  --text-muted: #707070;           /* Default is #707070 */
+  --online-color: #00FF8B;         /* Default is #00FF8B */
+  --idle-color: #FF9F00;           /* Default is #FF9F00 */
+  --dnd-color: #FF0000;            /* Default is #FF0000 */
+  --streaming-color: #5E00FF;      /* Default is #5E00FF */
+  --offline-color: #676767;        /* Default is #676767 */
   --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/VK0KwKR.jpg');
+  --background-image: unset;         /* This is your background image, if you want to import an image do: url('url here') */
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -26,8 +36,8 @@
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: rgba(0,0,0,0.9);
+  --background-overlay: #3d4047;
+  --user-popout-image: #313338;
   --user-popout-position: Bottom center;
   --user-popout-size: contain;
   --user-popout-repeat: no-repeat;
@@ -52,19 +62,11 @@
   --home-icon: url('https://i.imgur.com/AVxx2Lp.png');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #03A9F4;
-  --channel-color: rgb(157,157,157,0.82);
-  --muted-color: rgb(95,95,95,0.53);
-  --online-color: #00FF8B;
-  --idle-color: #FF9F00;
-  --dnd-color: #FF0000;
-  --streaming-color: #5E00FF;
-  --offline-color: #676767;
   --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-overlay: #313338;
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
   --backdrop-size: var(--background-size);

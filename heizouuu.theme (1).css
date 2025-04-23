@@ -1,20 +1,19 @@
 /**
- * @name vanitas :3
- * @author goose_soop
- * @description a theme edited by goose_soop :3 tehe
- * @website https://github.com/goose-soop/soup-s-themes
+ * @name heizouuu
+ * @author gouse_soop
+ * @description a theme edited by gouse_soop :3 tehe
 */
 
-@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/main/base.theme.css');
-@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/soups-silly-css-snippets-from-others.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/base.theme.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/new-ui-revamped.css');
 
 :root {
-  --main-color: #09658f;
-  --hover-color: #06364C;
-  --success-color: #15623F;
-  --danger-color: #3E0804;
+  --main-color: #8B2720;
+  --hover-color: #7F2C26;
+  --success-color: #43b581;
+  --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/VK0KwKR.jpg');
+  --background-image: url('https://i.imgur.com/L7cHxrQ.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -28,19 +27,19 @@
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
   --user-popout-image: rgba(0,0,0,0.9);
-  --user-popout-position: Bottom center;
-  --user-popout-size: contain;
+  --user-popout-position: center;
+  --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
   --user-popout-brightness: 100%;
-  --user-popout-contrast: 101%;
+  --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
-  --user-popout-blur: 7px;
-  --user-modal-image: transparent;
-  --user-modal-position: Bottom center;
-  --user-modal-size: 100%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('');
+  --user-modal-position: center;
+  --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
   --user-modal-brightness: 100%;
@@ -49,17 +48,17 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://i.imgur.com/AVxx2Lp.png');
+  --home-icon: url('');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #03A9F4;
-  --channel-color: rgb(157,157,157,0.82);
-  --muted-color: rgb(95,95,95,0.53);
-  --online-color: #00FF8B;
-  --idle-color: #FF9F00;
-  --dnd-color: #FF0000;
-  --streaming-color: #5E00FF;
-  --offline-color: #676767;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
   --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
@@ -83,3 +82,5 @@
 }
 
 /* Any custom CSS below here */
+
+
