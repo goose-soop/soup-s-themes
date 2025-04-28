@@ -451,9 +451,10 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
   scroll-behavior: false;
 }
 
-/* .anchor_edefb8.anchorUnderlineOnHover_edefb8 {
+.anchor_edefb8,
+.anchorUnderlineOnHover_edefb8 {
   display: none !important;
-} */
+}
 
 .editor__1b31f,
 .slateTextArea_ec4baf,
