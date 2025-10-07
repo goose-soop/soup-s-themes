@@ -454,7 +454,7 @@ nav.guilds_c48ade {
 
     .form_f75fb0 {
 
-        margin: 0px 8px 8px 8px;
+        margin: 8px 8px 8px 8px;
 
         padding: 0;
 
@@ -729,273 +729,151 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
     border-radius: var(--radius-md);
 
 }
-
 .layerContainer_da8173, .backdrop__78332 {
-
     width: calc(100vw - var(--custom-guild-list-width) - 10px);
-
     top: var(--custom-app-top-bar-height)!important;
-
     left: var(--custom-guild-list-width);
-
     height: calc(100vh - var(--custom-app-top-bar-height) - 11px);
-
     overflow: hidden;
-
     border-radius: var(--radius-md);
-
 }
-
 .submenuPaddingContainer_c1e9c4 {
-
     margin-left: 80px;
-
 }
-
 .layer__960e4 {
-
     background: rgba(0,0,0,0.5);
-
 }
-
-
 
 .baseLayer__960e4 {
-
     opacity: 1!important;
-
     transform: scale(1)!important;
-
     z-index: 0;
-
 }
-
-
 
 .panels_c48ade {
-
     z-index: 10000!important; /* could not make the user appear over settings or modals, yyyeerrraarrsesssarseaandthgrasssmannpunkyeseyahhavinh */
-
 }
 
 
-
-
-
 :root {
-
     /* Set to 1 if you want them to float  *\
-
     |*      Recommended while using        *|
-
     \*      Midnight/Rounded Themes        */
-
     --craat-popout: 0; /* Default = 0 */
-
     /* Change the border radius *\
-
     \*      for the alerts      */
-
     --craat-border-radius: 14px; /* default: 16px */
-
 }
 
 
-
-
-
 :root {
-
     /* change padding of the bar */
-
      --rscb-chat-box-padding: 0px; /* default is 8px for alignment */
-
     /* Whether you want the chat to not move up and down when someone starts typing */
-
     --rscb-no-jump-chat: 0;
-
 }
-
-
-
 
 
 :root {
-
   /* The blur radius, can be *\
-
   \*   any types of length   */
-
   --blrbg-blur-by: 2px;
-
   /* how dim you want the bg *\
-
   \*   aside from the blur   */
-
   --blrbg-dimmness: 25;
-
 }
-
-
-
 
 
 .tabBody__133bf {
-
   background-image: url('https://i.imgur.com/XKEN22J.png') !important ;
-
 }
-
-
 
 .standardSidebarView__23e6b {
-
   background-image: url('https://i.imgur.com/qCKv6Y2.png') !important;
-
 }
-
-
 
 .sidebarRegion__23e6b,
-
 .sidebar__23e6b,
-
 .contentRegion__23e6b,
-
 .contentTransitionWrap__23e6b,
-
 .contentRegionScroller__23e6b,
-
 .contentRegionShownSidebar__23e6b,
-
 .auto_d125d2,
-
 .sidebarRegionScroller__23e6b,
-
 .fade_d125d2,
-
 .container__2692d,
-
 .recentMentionsPopout__95796,
-
 .thin_d125d2,
-
 .scrollerBase_d125d2 {
-
   background-image: url('https://i.imgur.com/G9LUJFD.png');
-
   flex: false;
-
 }
-
-
 
 .side_b3f026{
-
   background-image: url('https://i.imgur.com/G9LUJFD.png');
-
   scroll-behavior: false;
-
 }
-
-
 
 .editor__1b31f,
-
 .slateTextArea_ec4baf,
-
 .fontSize16Padding__74017,
-
 .sansAttachButton__74017 {
-
  padding-left: 0px !important;
-
 }
-
-
 
 .attachButton__0923f,
-
 .attachButton__74017,
-
 .button__201d5,
-
 .lookBlank__201d5,
-
 .colorBrand__201d5,
-
 .grow__201d5 {
-
   padding-right: 0px;
-
 }
-
-
 
 .attachButtonInner__0923f {
-
   padding-left: 7px;
-
 }
-
-
 
 .title__85643 {
-
   visibility: hidden !important;
-
 }
-
-
 
 .icon_f34534,
-
 .guildIcon__85643,
-
 .iconSizeMini_f34534,
-
 .iconActiveMini_f34534 {
-
   display: none !important;
-
 }
-
-
 
 .wrapper_ef3116,
-
 .guilds_c48ade, 
-
 .stack_dbd263,
-
 .scroller_ef3116,
-
 .isScrolledToBottom_ef3116,
-
 .tree_ef3116,
-
 .itemsContainer_ef3116,
-
 .listItem__650eb,
-
 .listItem__650eb,
-
 .stack_dbd263,
-
 .expandedFolderIconWrapper__48112,
-
 .folder__48112 {
-
   background: url('https://i.imgur.com/a/HzpVYwh') !important;
-
 }
-
 
 
 .container__703b9 {
-
   display: all;
-
   visibility: show;
-
  }
+
+
+.attachButton__0923f {
+    padding: 5px 10px 5px 12px;
+}
+
+
+.attachWrapper__0923f {
+    align-self: stretch;
+    flex: 0 0 auto;
+    padding: 0;
+}
