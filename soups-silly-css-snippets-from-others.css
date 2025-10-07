@@ -222,7 +222,7 @@ nav.guilds_c48ade {
 
 
 .visual-refresh {
-    --custom-channel-textarea-text-area-height: 45px;
+    --custom-channel-textarea-text-area-height: 0px;
     .form_f75fb0 {
         margin: 0px 0px 0px 0px;
         padding: 0;
