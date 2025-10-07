@@ -923,3 +923,14 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
   visibility: show;
 
  }
+
+.attachButton__0923f {
+    padding: 5px 10px 5px 12px;
+}
+
+
+.attachWrapper__0923f {
+    align-self: stretch;
+    flex: 0 0 auto;
+    padding: 0;
+}
