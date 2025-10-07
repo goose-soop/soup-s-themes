@@ -1,10 +1,10 @@
 /**
  * @name Testing
  * @author gouse_soop
- * @description using basetwo.theme.css
+ * @description using base.theme.css
 */
 
-@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/basetwo.theme.css');
+@import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/base.theme.css');
 @import url('https://raw.githubusercontent.com/goose-soop/soup-s-themes/refs/heads/main/new-ui-revamped.css');
 
 :root {
